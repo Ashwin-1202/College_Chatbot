@@ -1,0 +1,100 @@
+{
+  "intents": [
+    {
+      "tag": "fee_structure",
+      "patterns": ["fee", "fees", "payment", "tuition", "cost"],
+      "responses": [
+        "B.Tech fees: ₹85,000 per semester. Hostel: ₹25,000-35,000. Payment deadlines: July 31 & January 31.",
+        "Semester fees: ₹85,000 tuition + development charges. Hostel extra. Pay online via student portal."
+      ]
+    },
+    {
+      "tag": "transportation",
+      "patterns": ["bus", "transport", "travel", "commute"],
+      "responses": [
+        "College buses cover all major routes. Timings: 7-10 AM & 4-9 PM. Monthly pass: ₹1,500.",
+        "Bus service available on 4 routes. Frequency: 15 mins during peak hours. Fee: ₹1,500/month."
+      ]
+    },
+    {
+      "tag": "placement_info", 
+      "patterns": ["placement", "job", "company", "career"],
+      "responses": [
+        "92% placement rate. Highest package: ₹42 LPA. Average: ₹8.5 LPA. Top companies: Amazon, Microsoft, TCS.",
+        "Placements: 92% success. Average salary: ₹8.5 LPA. 650+ offers last year from 100+ companies."
+      ]
+    },
+    {
+      "tag": "faculty_contacts",
+      "patterns": ["faculty", "professor", "staff", "hod"],
+      "responses": [
+        "CS HOD: Dr. Rajesh Kumar (Ext. 201). ME HOD: Dr. Sanjay Patel (Ext. 301). Email: RajkumarCS@college.edu",
+        "Faculty contacts available department-wise. Office hours: 9 AM-5 PM. General office: 080-2654-1234"
+      ]
+    },
+    {
+      "tag": "library_details",
+      "patterns": ["library", "book", "study"],
+      "responses": [
+        "Library hours: 8 AM-10 PM (Mon-Fri), 8 AM-6 PM (Sat). 50,000+ books. Digital section available.",
+        "Library: 8 AM-10 PM weekdays. 50K books, 10K e-books. Students can borrow 4 books for 14 days."
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": ["admission", "apply", "eligibility"],
+      "responses": [
+        "Admissions: 60% in 12th grade required. Apply by June 15. Entrance exam on July 1.",
+        "Eligibility: 60% in 12th. Application deadline: June 15. Entrance exam: July 1. Apply online."
+      ]
+    },
+    {
+      "tag": "course_information",
+      "patterns": ["course", "program", "subject"],
+      "responses": [
+        "B.Tech: CSE, ME, ECE, Civil, AI&DS. M.Tech: Advanced Computing, VLSI, Robotics. MBA: Finance, Marketing.",
+        "Programs: B.Tech (4 yrs), M.Tech (2 yrs), MBA (2 yrs). Multiple specializations available."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": ["facility", "hostel", "sports", "lab"],
+      "responses": [
+        "Facilities: Library, sports complex, labs, hostels, cafeteria, medical center, WiFi campus.",
+        "Campus has library, sports facilities, modern labs, hostels, cafeteria, and medical center."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": ["scholarship", "financial", "loan"],
+      "responses": [
+        "Scholarships: Merit-based (25-100% fee waiver) and need-based. Apply Aug 1-31.",
+        "Available: Merit scholarships (90%+ gets 100% waiver) and government scholarships. Apply in August."
+      ]
+    },
+    {
+      "tag": "events_clubs",
+      "patterns": ["event", "fest", "club", "activity"],
+      "responses": [
+        "Events: TechFest (Mar), Cultural Fest (Oct). Clubs: Coding, Robotics, Music, Entrepreneurship.",
+        "Major events: TechFest in March, Cultural Fest in October. Multiple student clubs active."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey"],
+      "responses": [
+        "Hello! I'm your college assistant. How can I help you today?",
+        "Hi there! Ask me about admissions, courses, fees, or campus facilities."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you"],
+      "responses": [
+        "Goodbye! Feel free to ask if you need more help.",
+        "See you! Have a great day ahead!"
+      ]
+    }
+  ]
+}
