@@ -18,4 +18,4 @@ An intelligent AI-powered chatbot for college information and student support bu
 - **Deployment**: Ready for Heroku/Railway
 
 ## Project Demo
--**Project URL**:https://college-chatbot-1-lrv0.onrender.com/
+**Project URL**:https://college-chatbot-1-lrv0.onrender.com/
