@@ -15,3 +15,5 @@ An intelligent AI-powered chatbot for college information and student support bu
 - **Frontend**: HTML, CSS, JavaScript
 - **Deployment**: Ready for Heroku/Railway
 
+## Screenshot
+<img width="1111" height="821" alt="image" src="https://github.com/user-attachments/assets/cb2c30c9-dd29-4b02-972f-154e87d3965f" />
